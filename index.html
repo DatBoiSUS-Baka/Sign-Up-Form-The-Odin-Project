@@ -25,7 +25,8 @@
         <div class="form-section">
             <!-- Form Header -->
             <div class="form-header">
-                <h2>This is not a real online service! You know you need something like this in your life to help to realize your deepest dreams.
+                <h2>This is not a real online service! You know you need something<br>
+                    like this in your life to help to realize your deepest dreams.
                     <br>Sign up <i>now</i> to get started.
                 </h2>
                 <br><h2>You <i>know</i> you want to.</h2><br>
@@ -33,24 +34,40 @@
         
             <!-- Form -->
             <form>
-                <h2>Let's do this!</h2>
-                <label for="first-name">FIRST NAME</label>
-                <input type="text" name="first-name" placeholder="Kang">
+                <fieldset>
+                    <h3>Let's do this!</h3>
+                    <div class="inputs">
+                        <div class="control">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" name="first-name" placeholder="Kang">
+                        </div>
+                        
+                        <div class="control">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" name="last-name" placeholder="Yeosang">
+                        </div>
                 
-                <label for="last-name">LAST NAME</label>
-                <input type="text" name="last-name" placeholder="Yeosang">
-        
-                <label for="email">EMAIL</label>
-                <input type="email" name="email" placeholder="your-mail@example.com">
-        
-                <label for="phone-number">PHONE NUMBER</label>
-                <input type="number" name="phone-number" placeholder="0832xxxxx">
-        
-                <label for="password">PASSWORD</label>
-                <input type="password" name="password">
-        
-                <label for="confirm-password">CONFIRM PASSWORD</label>
-                <input type="password" name="confirm-password">
+                        <div class="control">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" placeholder="your-mail@example.com">
+                        </div>
+                
+                        <div class="control">
+                            <label for="phone-number">PHONE NUMBER</label>
+                            <input type="number" name="phone-number" placeholder="0832xxxxx">
+                        </div>
+                
+                        <div class="control">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password">
+                        </div>
+                
+                        <div class="control">
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input type="password" name="confirm-password">
+                        </div>
+                    </div>
+                </fieldset>
         
                 <button class="form-button">Create Account</button>
             </form>

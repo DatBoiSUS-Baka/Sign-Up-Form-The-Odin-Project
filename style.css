@@ -6,6 +6,10 @@
   font-style: normal;
 }
 
+:root{
+    --button-color: #65779F;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -79,3 +83,64 @@ h1{
     text-decoration: underline;
 }
 
+.form-section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    background-color: #eee;
+    width: 100%;
+}
+p{
+    margin: 0.25rem 2rem;
+}
+
+fieldset{
+    background-color: white;
+    padding: 2rem;
+    border: 0px solid black;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin: 1rem 0rem;
+    border-top: 2px rgb(246, 243, 243) solid;
+    padding-top: 20px;
+}
+
+h2{
+    margin-left: 2rem;
+}
+
+h3{
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.inputs{
+    display: flex;
+    gap: 3rem;
+}
+
+label{
+    font-size: 70%;
+}
+
+input{
+    width: 100%;
+    outline: none;
+    margin-bottom: 1rem;
+}
+
+button {
+  background-color: var(--button-color);
+  color: white;
+  outline: none;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 7px;
+  margin-left: 2rem;
+}
